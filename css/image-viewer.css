@@ -1,0 +1,63 @@
+main img {
+    width: 80%;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+header .button {
+    grid-area: toggle;
+}
+
+@media screen and (min-width: 768px) {
+    header .button {
+        grid-area: toggle;
+    }
+
+    header {
+        align-items: center;
+        padding: 0 0;
+        display: grid;
+        position: relative;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "logo toggle" "nav nav";
+    
+        flex-direction: row;
+        justify-content: space-between;
+    
+        background-color: #922B36;
+        position:fixed;
+        top: 0;
+    
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+    .logo {
+        height: 75px;
+    }
+
+    header {
+        align-items: center;
+        padding: 0 0;
+        display: grid;
+        position: relative;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "logo toggle" "nav nav";
+    
+        flex-direction: row;
+        justify-content: space-between;
+    
+        background-color: #922B36;
+        position:fixed;
+        top: 0;
+    
+    }
+}
