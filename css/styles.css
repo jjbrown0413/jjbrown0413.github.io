@@ -23,12 +23,11 @@ ul {
 
 .button {
     padding: 15px 30px;
-    border: 2px solid black;
     border-radius: 10px;
     text-decoration: none;
 }
 
-form .button {
+form button {
     font-family: 'Poppins';
     font-size: 14pt;
     font-weight: bold;
@@ -79,6 +78,7 @@ h3 {
 
 table {
     font-size: 14pt;
+    table-layout: fixed;
 }
 
 figcaption {
