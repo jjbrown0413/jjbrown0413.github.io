@@ -1,7 +1,8 @@
-main img {
+main img, main video {
     width: 80%;
     margin: auto;
 }
+
 
 main {
     display: flex;
