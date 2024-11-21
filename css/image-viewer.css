@@ -14,6 +14,10 @@ header .button {
     grid-area: toggle;
 }
 
+.return-button {
+    border: 2px solid white;
+}
+
 @media screen and (min-width: 768px) {
     header .button {
         grid-area: toggle;
